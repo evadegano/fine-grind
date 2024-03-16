@@ -6,12 +6,11 @@ export const colors = {
   black: "#000000",
 };
 
-export const siteTitle = "Inner Wealth Journey";
+export const siteTitle = "Fine Grind";
 
 export const siteTagline = "Seek more.";
 
-export const mainImage = "/homepage.webp";
-export const newsletterImage = "/newsletter.webp";
+export const mainImage = "/images/homepage.jpeg";
 
 export const mainDesc =
   "Learn how to create wealth with Numerology at the Inner Wealth Journey";

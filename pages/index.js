@@ -3,6 +3,7 @@ import { siteTitle, mainImage, mainDesc } from "../styles/chart";
 import { getSortedPostsData } from "../lib/posts";
 import Layout from "../components/layout";
 import Hero from "../components/hero";
+import Map from "../components/map";
 
 export const getStaticProps = () => {
   const posts = getSortedPostsData();
@@ -55,6 +56,7 @@ const Home = ({ posts }) => {
       desc={mainDesc}
     >
       <Hero />
+      <Map />
       <About />
     </Layout>
   );

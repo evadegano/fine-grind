@@ -13,7 +13,7 @@ const Layout = ({ title, image, desc, children }) => {
         <meta name="og:title" content={title} />
         <meta name="og:description" content={desc} />
         <meta property="og:image" content={image} />
-        <meta name="twitter:card" content="/homepage.webp" />
+        <meta name="twitter:card" content="/images/homepage.jpeg" />
       </Head>
 
       <main>

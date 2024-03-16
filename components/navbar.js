@@ -28,10 +28,7 @@ const Navbar = () => {
         </div>
 
         <div>
-          <Link href="/articles/numerology">Articles</Link>
-          <Link className="btn" href="/newsletter">
-            FREE WEEKLY WEALTH READING
-          </Link>
+          <Link href="/blog">Explore cafés</Link>
 
           {session && <button onClick={() => signOut()}>Log out</button>}
         </div>
@@ -51,16 +48,13 @@ const Navbar = () => {
                 fontWeight: "bold",
               }}
             >
-              IWJ
+              Fine Grind
             </div>
           </Link>
         </div>
 
         <div>
-          <Link href="/articles/numerology">Articles</Link>
-          <Link className="btn" href="/newsletter">
-            FREE READING
-          </Link>
+          <Link href="/blog">Explore cafés</Link>
 
           {session && <button onClick={() => signOut()}>Log out</button>}
         </div>

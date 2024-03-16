@@ -5,11 +5,11 @@ import {
   getAllPostIds,
   getSortedPostsData,
   getPostData,
-} from "../../../lib/posts";
-import { title_font } from "../../../styles/fonts";
-import { siteTitle } from "../../../styles/chart";
-import Layout from "../../../components/layout";
-import PostLayout from "../../../components/postLayout";
+} from "../../lib/posts";
+import { title_font } from "../../styles/fonts";
+import { siteTitle } from "../../styles/chart";
+import Layout from "../../components/layout";
+import PostLayout from "../../components/postLayout";
 
 export const getStaticPaths = async () => {
   const paths = getAllPostIds();
