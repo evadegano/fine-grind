@@ -2,7 +2,6 @@ import { getSortedPostsData } from "../../../lib/posts";
 import { title_font } from "../../../styles/fonts";
 import { siteTitle, mainImage, mainDesc } from "../../../styles/chart";
 import Layout from "../../../components/layout";
-import PostsMasonry from "../../../components/postsMasonry";
 
 export const getStaticProps = () => {
   const posts = getSortedPostsData();
@@ -45,8 +44,6 @@ const Numerology = ({ posts }) => {
           dreams.
         </p>
       </section>
-
-      <PostsMasonry posts={posts} />
     </Layout>
   );
 };

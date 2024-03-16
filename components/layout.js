@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import { siteTitle } from "../styles/chart";
-import OneTapSignin from "./oneTapSignin";
 import Navbar from "./navbar";
 
 const Layout = ({ title, image, desc, children }) => {
@@ -19,7 +18,6 @@ const Layout = ({ title, image, desc, children }) => {
 
       <main>
         <Navbar />
-        {/* <OneTapSignin /> */}
         {children}
       </main>
 

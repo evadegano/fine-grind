@@ -10,7 +10,6 @@ import { title_font } from "../../../styles/fonts";
 import { siteTitle } from "../../../styles/chart";
 import Layout from "../../../components/layout";
 import PostLayout from "../../../components/postLayout";
-import PostsMasonry from "../../../components/postsMasonry";
 
 export const getStaticPaths = async () => {
   const paths = getAllPostIds();
@@ -153,8 +152,6 @@ const PostPage = ({ post, posts }) => {
           </div>
         </div>
       </section>
-
-      <PostsMasonry posts={posts} />
     </Layout>
   );
 };
